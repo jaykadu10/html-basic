@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    
+*{
+text-align: center;
+margin-top:25px;
+}
+.container {
+  display:inline-flex;
+  flex-direction:row;
+}
+
+.left {
+  flex: 1;
+  padding: 20px;
+  background-color: #dde0e0;
+  border: 1px solid #ccc;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #ccc;
+}
+
+.signin {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="left">
+    <h1>Signin</h1>
+    <input type="text" placeholder="Email" /><br><br>
+    <input type="password" placeholder="Password" /><br><br>
+    <button class="signin">Signin</button><br>
+    <p>or signin with</p>
+  </div>
+  <div class="right">
+    <h1>Welcome back!</h1>
+    <p>Welcome back! We are so happy to have you here it's great to see you again. We hope you had a safe and enjoyable time away</p>
+    <p>No account yet? Signup.</p>
+  </div>
+</div>
+
+</body>
+</html>

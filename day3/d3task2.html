@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="#" method="post">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <label>
+                <input type="radio" name="gender" value="male" required> Male
+            </label><br>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label><br>
+            <label>
+                <input type="radio" name="gender" value="other"> Other
+            </label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Hobbies:</legend>
+            <label>
+                <input type="checkbox" name="hobbies" value="reading"> Reading
+            </label><br>
+            <label>
+                <input type="checkbox" name="hobbies" value="traveling"> Traveling
+            </label><br>
+            <label>
+                <input type="checkbox" name="hobbies" value="sports"> Sports
+            </label><br>
+            <label>
+                <input type="checkbox" name="hobbies" value="music"> Music
+            </label>
+        </fieldset><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
